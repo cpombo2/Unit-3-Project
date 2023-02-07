@@ -1,0 +1,95 @@
+/* Feel free to change any of the styling below!*/
+
+body {
+    text-align: center;
+background-color: black;
+}
+
+img {
+    width: 350px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+  color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 40px;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+ 
+.story-opening{
+   display:block;
+}
+
+
+
+.buttons{
+   display:block;
+}
+
+
+/* Chris, double check your class selector on line 56.  Make sure it matches the class in your HTML. -Michael
+*/
+.option-one-screen{
+   display:none;
+       }
+
+
+
+.option-two-screen{
+   display:none;
+}
+
+
+.option-three-screen{
+   display:none;
+}
+
+
+.option-four-screen{
+   display:none;
+}
+
+.option-five-screen{
+   display:none;
+}
+
+.option-six-screen{
+   display:none;
+}
+
+.option-seven-screen{
+   display:none;
+}
+
+.option-eight-screen{
+   display:none;
+}
+
+.jump{
+   display:none;
+  width: 400px;
+}
